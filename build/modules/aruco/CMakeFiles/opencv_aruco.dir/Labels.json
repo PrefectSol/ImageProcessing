@@ -1,0 +1,228 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/aruco_calib_pose.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/board.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/charuco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/dictionary.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco_detector.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/apriltag_quad_thresh.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/zmaxheap.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_calib_pose.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_detector.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_utils.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/board.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/charuco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/dictionary.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/apriltag_quad_thresh.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/predefined_dictionaries_apriltag.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/unionfind.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/zarray.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/zmaxheap.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_utils.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/predefined_dictionaries.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/build/cvconfig.h"
+		},
+		{
+			"file" : "/home/prefect/Code/C++/ImageProcessing/build/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_aruco",
+			"Module"
+		],
+		"name" : "opencv_aruco"
+	}
+}

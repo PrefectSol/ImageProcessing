@@ -1,0 +1,769 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: предупреждение: command-line option «-Wnon-virtual-dtor» is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad2e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad2e7.dir/build.make CMakeFiles/cmTC_ad2e7.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_ad2e7.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_ad2e7.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+cc1: предупреждение: command-line option «-Wnon-virtual-dtor» is valid for C++/ObjC++ but not for C
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_ad2e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad2e7.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_ad2e7.dir/src.c.o -o cmTC_ad2e7 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: предупреждение: command-line option «-Wmissing-prototypes» is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0ee2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0ee2.dir/build.make CMakeFiles/cmTC_a0ee2.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_a0ee2.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_a0ee2.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: предупреждение: command-line option «-Wmissing-prototypes» is valid for C/ObjC but not for C++
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_a0ee2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0ee2.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_a0ee2.dir/src.cxx.o -o cmTC_a0ee2 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: предупреждение: command-line option «-Wstrict-prototypes» is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_634dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_634dc.dir/build.make CMakeFiles/cmTC_634dc.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_634dc.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_634dc.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: предупреждение: command-line option «-Wstrict-prototypes» is valid for C/ObjC but not for C++
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_634dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_634dc.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_634dc.dir/src.cxx.o -o cmTC_634dc 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: предупреждение: command-line option «-Wsign-promo» is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17e8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17e8a.dir/build.make CMakeFiles/cmTC_17e8a.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_17e8a.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_17e8a.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+cc1: предупреждение: command-line option «-Wsign-promo» is valid for C++/ObjC++ but not for C
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_17e8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e8a.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_17e8a.dir/src.c.o -o cmTC_17e8a 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: предупреждение: command-line option «-Wsuggest-override» is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_965ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_965ca.dir/build.make CMakeFiles/cmTC_965ca.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_965ca.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_965ca.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+cc1: предупреждение: command-line option «-Wsuggest-override» is valid for C++/ObjC++ but not for C
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_965ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_965ca.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_965ca.dir/src.c.o -o cmTC_965ca 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: предупреждение: command-line option «-Wno-delete-non-virtual-dtor» is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_206fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_206fd.dir/build.make CMakeFiles/cmTC_206fd.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_206fd.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_206fd.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+cc1: предупреждение: command-line option «-Wno-delete-non-virtual-dtor» is valid for C++/ObjC++ but not for C
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_206fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_206fd.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_206fd.dir/src.c.o -o cmTC_206fd 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: замечание: unrecognized command-line option «-Wno-unnamed-type-template-args» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4bb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4bb7.dir/build.make CMakeFiles/cmTC_c4bb7.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_c4bb7.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_c4bb7.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: замечание: unrecognized command-line option «-Wno-unnamed-type-template-args» may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_c4bb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4bb7.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_c4bb7.dir/src.cxx.o -o cmTC_c4bb7 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: замечание: unrecognized command-line option «-Wno-unnamed-type-template-args» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d4f81/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4f81.dir/build.make CMakeFiles/cmTC_d4f81.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d4f81.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_d4f81.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: замечание: unrecognized command-line option «-Wno-unnamed-type-template-args» may have been intended to silence earlier diagnostics
+Linking C executable cmTC_d4f81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4f81.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_d4f81.dir/src.c.o -o cmTC_d4f81 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: предупреждение: command-line option «-fvisibility-inlines-hidden» is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1188/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1188.dir/build.make CMakeFiles/cmTC_d1188.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d1188.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_d1188.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+cc1: предупреждение: command-line option «-fvisibility-inlines-hidden» is valid for C++/ObjC++ but not for C
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_d1188
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1188.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_d1188.dir/src.c.o -o cmTC_d1188 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: замечание: unrecognized command-line option «-Wno-shorten-64-to-32» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e03ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e03ab.dir/build.make CMakeFiles/cmTC_e03ab.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e03ab.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_e03ab.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: замечание: unrecognized command-line option «-Wno-shorten-64-to-32» may have been intended to silence earlier diagnostics
+Linking C executable cmTC_e03ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e03ab.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e03ab.dir/src.c.o -o cmTC_e03ab 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ad42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ad42.dir/build.make CMakeFiles/cmTC_8ad42.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_8ad42.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8ad42.dir/CheckIncludeFile.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: io.h: Нет такого файла или каталога
+    1 | #include <io.h>
+      |          ^~~~~~
+компиляция прервана.
+gmake[1]: *** [CMakeFiles/cmTC_8ad42.dir/build.make:78: CMakeFiles/cmTC_8ad42.dir/CheckIncludeFile.c.o] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_8ad42/fast] Ошибка 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe3ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe3ae.dir/build.make CMakeFiles/cmTC_fe3ae.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_fe3ae.dir/int8.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_fe3ae.dir/int8.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int8.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int8.c:27:22: ошибка: «INT8» не описан здесь (не в функции); имелось в виду «INT8_C»?
+   27 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int8.c:29:12: замечание: в расширении макроса «SIZE»
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_fe3ae.dir/build.make:78: CMakeFiles/cmTC_fe3ae.dir/int8.c.o] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_fe3ae/fast] Ошибка 2
+
+
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1ef0b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ef0b.dir/build.make CMakeFiles/cmTC_1ef0b.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_1ef0b.dir/int16.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1ef0b.dir/int16.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int16.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int16.c:27:22: ошибка: «INT16» не описан здесь (не в функции); имелось в виду «INT16_C»?
+   27 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int16.c:29:12: замечание: в расширении макроса «SIZE»
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_1ef0b.dir/build.make:78: CMakeFiles/cmTC_1ef0b.dir/int16.c.o] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_1ef0b/fast] Ошибка 2
+
+
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ed73/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ed73.dir/build.make CMakeFiles/cmTC_6ed73.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_6ed73.dir/int32.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6ed73.dir/int32.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int32.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int32.c:27:22: ошибка: «INT32» не описан здесь (не в функции); имелось в виду «INT32_C»?
+   27 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int32.c:29:12: замечание: в расширении макроса «SIZE»
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_6ed73.dir/build.make:78: CMakeFiles/cmTC_6ed73.dir/int32.c.o] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_6ed73/fast] Ошибка 2
+
+
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43b76/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43b76.dir/build.make CMakeFiles/cmTC_43b76.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_43b76.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_43b76.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43b76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b76.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_43b76.dir/CheckFunctionExists.c.o -o cmTC_43b76 
+/usr/bin/ld: CMakeFiles/cmTC_43b76.dir/CheckFunctionExists.c.o: в функции «main»:
+CheckFunctionExists.c:(.text.startup.main+0xc): неопределённая ссылка на «setmode»
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+gmake[1]: *** [CMakeFiles/cmTC_43b76.dir/build.make:99: cmTC_43b76] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_43b76/fast] Ошибка 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: предупреждение: command-line option «-Wno-missing-prototypes» is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b504e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b504e.dir/build.make CMakeFiles/cmTC_b504e.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_b504e.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_b504e.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: предупреждение: command-line option «-Wno-missing-prototypes» is valid for C/ObjC but not for C++
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_b504e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b504e.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b504e.dir/src.cxx.o -o cmTC_b504e 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: замечание: unrecognized command-line option «-Wno-implicit-const-int-float-conversion» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fffd3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fffd3.dir/build.make CMakeFiles/cmTC_fffd3.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_fffd3.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_fffd3.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: замечание: unrecognized command-line option «-Wno-implicit-const-int-float-conversion» may have been intended to silence earlier diagnostics
+Linking C executable cmTC_fffd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fffd3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_fffd3.dir/src.c.o -o cmTC_fffd3 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_15f75/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_15f75.dir/build.make CMakeFiles/cmTC_15f75.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_15f75.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_15f75.dir/CheckSymbolExists.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции «main»:
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: ошибка: «_aligned_malloc» не описан (первое использование в этой функции)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: замечание: сообщение о каждом неописанном идентификаторе выдается один раз в каждой функции, где он встречается
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: предупреждение: параметру «argc» присвоено значение, но он не использован [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_15f75.dir/build.make:78: CMakeFiles/cmTC_15f75.dir/CheckSymbolExists.c.o] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_15f75/fast] Ошибка 2
+
+
+File /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: замечание: unrecognized command-line option «-Wno-null-pointer-subtraction» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d6b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d6b7.dir/build.make CMakeFiles/cmTC_3d6b7.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3d6b7.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-null-pointer-subtraction -o CMakeFiles/cmTC_3d6b7.dir/src.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.c:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: замечание: unrecognized command-line option «-Wno-null-pointer-subtraction» may have been intended to silence earlier diagnostics
+Linking C executable cmTC_3d6b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d6b7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3d6b7.dir/src.c.o -o cmTC_3d6b7 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: замечание: unrecognized command-line option «-Wno-inconsistent-missing-override» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7485/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7485.dir/build.make CMakeFiles/cmTC_b7485.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_b7485.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_b7485.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: замечание: unrecognized command-line option «-Wno-inconsistent-missing-override» may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_b7485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7485.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b7485.dir/src.cxx.o -o cmTC_b7485 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: замечание: unrecognized command-line option «-Wno-implicit-const-int-float-conversion» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d86f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d86f.dir/build.make CMakeFiles/cmTC_5d86f.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_5d86f.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles/cmTC_5d86f.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: замечание: unrecognized command-line option «-Wno-implicit-const-int-float-conversion» may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_5d86f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d86f.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5d86f.dir/src.cxx.o -o cmTC_5d86f 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4de16/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4de16.dir/build.make CMakeFiles/cmTC_4de16.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4de16.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4de16.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4de16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4de16.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4de16.dir/CheckFunctionExists.c.o -o cmTC_4de16 
+/usr/bin/ld: CMakeFiles/cmTC_4de16.dir/CheckFunctionExists.c.o: в функции «main»:
+CheckFunctionExists.c:(.text.startup.main+0xc): неопределённая ссылка на «sgemm_»
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+gmake[1]: *** [CMakeFiles/cmTC_4de16.dir/build.make:99: cmTC_4de16] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_4de16/fast] Ошибка 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: замечание: unrecognized command-line option «-Wno-tautological-undefined-compare» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3cd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3cd4.dir/build.make CMakeFiles/cmTC_d3cd4.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_d3cd4.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_d3cd4.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: замечание: unrecognized command-line option «-Wno-tautological-undefined-compare» may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_d3cd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3cd4.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_d3cd4.dir/src.cxx.o -o cmTC_d3cd4 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: замечание: unrecognized command-line option «-Wno-shorten-64-to-32» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b215e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b215e.dir/build.make CMakeFiles/cmTC_b215e.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_b215e.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_b215e.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: замечание: unrecognized command-line option «-Wno-shorten-64-to-32» may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_b215e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b215e.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b215e.dir/src.cxx.o -o cmTC_b215e 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: замечание: unrecognized command-line option «-Wno-enum-compare-switch» may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a814/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a814.dir/build.make CMakeFiles/cmTC_2a814.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_2a814.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_2a814.dir/src.cxx.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/src.cxx:1: предупреждение: ignoring «#pragma  » [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: замечание: unrecognized command-line option «-Wno-enum-compare-switch» may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_2a814
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a814.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2a814.dir/src.cxx.o -o cmTC_2a814 
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14ce6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14ce6.dir/build.make CMakeFiles/cmTC_14ce6.dir/build
+gmake[1]: вход в каталог «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_14ce6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_14ce6.dir/CheckIncludeFile.c.o -c /home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: sys/videoio.h: Нет такого файла или каталога
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+компиляция прервана.
+gmake[1]: *** [CMakeFiles/cmTC_14ce6.dir/build.make:78: CMakeFiles/cmTC_14ce6.dir/CheckIncludeFile.c.o] Ошибка 1
+gmake[1]: выход из каталога «/home/prefect/Code/C++/ImageProcessing/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_14ce6/fast] Ошибка 2
+
+
+

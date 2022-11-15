@@ -1,0 +1,99 @@
+# Target labels
+ Extra
+ opencv_aruco
+ Module
+# Source files and their labels
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/aruco_calib_pose.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/board.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/charuco.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco/dictionary.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/include/opencv2/aruco_detector.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/apriltag_quad_thresh.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/zmaxheap.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_calib_pose.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_detector.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_utils.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/board.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/charuco.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/dictionary.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/apriltag_quad_thresh.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/predefined_dictionaries_apriltag.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/unionfind.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/zarray.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/apriltag/zmaxheap.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/aruco_utils.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/precomp.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/opencv_contrib/modules/aruco/src/predefined_dictionaries.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/prefect/Code/C++/ImageProcessing/build/cvconfig.h
+/home/prefect/Code/C++/ImageProcessing/build/opencv2/opencv_modules.hpp
