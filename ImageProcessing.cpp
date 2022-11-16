@@ -91,10 +91,6 @@ void Processing(vector<Mat> images, const vector<string> filenames, const string
 }
 
 void Startup(const string input, string output) {
-    const string JPEG_IMAGE_EXTENSION = ".jpeg";
-    const string JPG_IMAGE_EXTENSION = ".jpg";
-    const string PNG_IMAGE_EXTENSION = ".png";
-
     vector<Mat> images;
     vector<string> filenames;
 
