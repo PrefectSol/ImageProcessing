@@ -12,5 +12,5 @@ make
 ``` 
 
 ```
-./ImageProcessing
+./ImageProcessing <input folder> <output folder>
 ``` 
