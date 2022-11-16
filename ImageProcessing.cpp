@@ -98,12 +98,12 @@ void Startup(const string input, string output) {
     vector<Mat> images;
     vector<string> filenames;
 
-    GetImages(images, filenames, input);
-
     if (!CreateOutput(output)) {
         printf("\033[3;42;30m Failed to create output path: %s \033[0m\n", output);
         return;
     }
+
+    GetImages(images, filenames, input);
 
     thread th1([&]() {
         Processing(images, filenames, output, 0, images.size() / 2);
