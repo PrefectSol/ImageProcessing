@@ -12,5 +12,5 @@ make
 ``` 
 
 ```
-./ImageProcessing <input folder> <output folder> <number of threads> <items on the thread>
+./ImageProcessing <input folder> <output folder> <number of threads>
 ``` 

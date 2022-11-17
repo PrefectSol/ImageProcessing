@@ -5,9 +5,6 @@ using namespace std;
 using namespace filesystem;
 using namespace cv;
 
-int numberOfProcessing = 0;
-bool isProcessing = true;
-
 bool UploadImages(const Mat& image, const string filename, const string path) {
     return imwrite(path + filename, image);
 }
@@ -72,58 +69,35 @@ bool CreateOutput(string& output) {
     }
 }
 
-void GetImages(vector<Mat>& images, vector<string>& filenames, const string path, int start, int count) {
+void GetImagePaths(vector<string>& imagePaths, const string path) {
     const string JPEG_IMAGE_EXTENSION = ".jpeg";
     const string JPG_IMAGE_EXTENSION = ".jpg";
     const string PNG_IMAGE_EXTENSION = ".png";
 
-    int elem = 0;
     for (const auto &entry : directory_iterator(path)) {
-        if (elem < start) {
-            elem++;
-
-            continue;
-        }
-
-        if (elem >= start + count) {
-            break;
-        }
-
         if (entry.path().extension() == JPEG_IMAGE_EXTENSION ||
             entry.path().extension() == JPG_IMAGE_EXTENSION ||
             entry.path().extension() == PNG_IMAGE_EXTENSION) {
 
-            images.push_back(imread(entry.path()));
-            filenames.push_back(entry.path().filename());
-
-            elem++;
+            imagePaths.push_back(entry.path());
         }
-    }
-
-    if (images.size() < count) {
-        isProcessing = false;
     }
 }
 
-void Processing(const string input, const string output, int start, int count) {
-    vector<Mat> images;
-    vector<string> filenames;    
+void Processing(vector<string>* imagePaths, const string input, const string output, int start, int end) {
+    Mat image; 
+    for(int i = start; i < end; i++) {
+        image = imread((*imagePaths)[i]);
+        AdjustmentImage(image);
+        CutImage(image);
 
-    GetImages(images, filenames, input, start, count);
-
-    for(int i = 0; i < images.size(); i++) {
-        AdjustmentImage(images[i]);
-        CutImage(images[i]);
-
-        if (!UploadImages(images[i], filenames[i], output)) {
-            printf("\033[3;42;30m Failed to upload image: %s with path: %s \033[0m\n", filenames[i], output);
+        if (!UploadImages(image, directory_entry((*imagePaths)[i]).path().filename(), output)) {
+            printf("\033[3;42;30m Failed to upload image: %s with path: %s \033[0m\n", imagePaths[i], output);
         }
     }
-
-    numberOfProcessing--;
 }
 
-void Startup(const string input, string output, const unsigned int threadCount, const unsigned int jump) {
+void Startup(const string input, string output, unsigned int threadCount) {
     if (!CreateOutput(output)) {
         printf("\033[3;42;30m Failed to create output path: %s \033[0m\n", output);
         return;
@@ -135,39 +109,44 @@ void Startup(const string input, string output, const unsigned int threadCount, 
         return;
     }
 
-    unsigned int start = 0;
-
+    vector<string> imagePaths;
     vector<thread> threads;
-    for(int i = 0; i < threadCount; i++, start += jump) {
-        threads.push_back(thread(Processing, input, output, start, jump));
-        numberOfProcessing++;
+
+    GetImagePaths(imagePaths, input); 
+
+    if (imagePaths.size() == 0) {
+        return;
     }
 
-    while(isProcessing) {
-        while(numberOfProcessing != threadCount) {
-            threads.push_back(thread(Processing, input, output, start, jump));
-
-            start += jump;
-            numberOfProcessing++;
-        }
+    if (imagePaths.size() < threadCount) {
+        threadCount = imagePaths.size();
     }
+
+    int load = imagePaths.size() / threadCount;
+    int addon = imagePaths.size() % threadCount;
+    
+    for(int i = 0; i < threadCount; i++) {
+        threads.push_back(thread(Processing, &imagePaths, input, output,  load * i, load * (i + 1))); 
+    }
+
+    Processing(&imagePaths, input, output, imagePaths.size() - addon, imagePaths.size());
 
     for(auto &th : threads) {
         th.join();
     }
-
+    
     threads.clear();
 }
 
 int main(int argc, char *argv[]) {
     try {
-        if (argc != 5 || !is_directory(argv[1]) || atoi(argv[3]) <= 0 || atoi(argv[4]) <= 0) {
+        if (argc != 4 || !is_directory(argv[1]) || atoi(argv[3]) <= 0) {
             cout << "ImageProcessing" << endl;
             cout << "Processes images from the specified folder and saves the processed images to another specified folder." << endl;
-            cout << "Example:" << endl << "./ImageProcessing <input folder> <output folder> <number of threads> <items on the thread>" << endl;
+            cout << "Example:" << endl << "./ImageProcessing <input folder> <output folder> <number of threads>" << endl;
         }
         else {
-            Startup(argv[1], argv[2], atoi(argv[3]), atoi(argv[4]));
+            Startup(argv[1], argv[2], atoi(argv[3]));
         }
     } catch (...) {
         printf("\033[3;42;30m Permission denied \033[0m\n");
