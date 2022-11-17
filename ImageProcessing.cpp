@@ -10,20 +10,21 @@ bool UploadImages(const Mat& image, const string filename, const string path) {
 }
 
 void AdjustmentImage(Mat& image) {
-    const unsigned int ROW = max(512, image.rows);
-    const unsigned int COL = max(512, image.cols);
+    const int SQUARE = 512;
+    const unsigned int ROW = max(SQUARE, image.rows);
+    const unsigned int COL = max(SQUARE, image.cols);
     
     if (image.rows < ROW || image.cols < COL) {
         Mat3b res(ROW, COL, Vec3b(255, 255, 255));
 
-        if (ROW > 512) {
-            image.copyTo(res(Rect(256 - image.cols / 2, 0, image.cols, image.rows)));
+        if (ROW > SQUARE) {
+            image.copyTo(res(Rect(SQUARE / 2 - image.cols / 2, 0, image.cols, image.rows)));
         }
-        else if (COL > 512) {
-            image.copyTo(res(Rect(0, 256 - image.rows / 2, image.cols, image.rows)));
+        else if (COL > SQUARE) {
+            image.copyTo(res(Rect(0, SQUARE / 2 - image.rows / 2, image.cols, image.rows)));
         }
         else {
-            image.copyTo(res(Rect(256 - image.cols / 2, 256 - image.rows / 2, image.cols, image.rows)));
+            image.copyTo(res(Rect(SQUARE / 2 - image.cols / 2, SQUARE / 2 - image.rows / 2, image.cols, image.rows)));
         }
 
         image = res;
@@ -31,8 +32,9 @@ void AdjustmentImage(Mat& image) {
 }
 
 void CutImage(Mat& image) {
+    const unsigned int OFFSET = 256;
     Size center(image.rows / 2, image.cols / 2);
-    image = image(Range(center.width - 256, center.width + 256), Range(center.height - 256, center.height + 256));
+    image = image(Range(center.width - OFFSET, center.width + OFFSET), Range(center.height - OFFSET, center.height + OFFSET));
 }
 
 bool CreateOutput(string& output) {
@@ -41,19 +43,16 @@ bool CreateOutput(string& output) {
             return true;
         }
 
-        if (GetOS() == Linux) {
         #ifdef __linux
             const string USERNAME = getlogin();
             string home = "/home/" + USERNAME + "/";
-        #endif 
             
             if (output.substr(0, home.length()) == home) {
                 home = "";
             }
 
             output = home + output;
-        }
-        else {
+        #else
             string home = "C:\\";
 
             if (output.substr(0, home.length()) == home) {
@@ -61,7 +60,7 @@ bool CreateOutput(string& output) {
             }
 
             output = home + output;
-        }
+        #endif
 
         return create_directory(output);
     } catch (...) {
