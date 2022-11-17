@@ -5,7 +5,10 @@
 #include <filesystem>
 #include <string>
 #include <thread>
-#include "unistd.h"
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
+
+#ifdef __linux
+#include "unistd.h"
+#endif
